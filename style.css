@@ -86,8 +86,50 @@
 .instagram{
     background-image: url(./src/img/inst.png);
 }
+.title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    color: #1C2752;
 
-
+}
+.text-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    list-style: none;
+}
+.text-title-gray{
+    color: #7E7E7E
+}
+.first_section_title{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+}
+.first_section_title_img{
+    background-image: url('./src/img/mech.png');
+    width: 30px;
+    height: 29px;
+}
 .header_logo_picture{
     background-image: url(./src/img/logo.png);
     width: 242px;
@@ -181,6 +223,10 @@
     height: 68px;
     background-color:#FFB342 ;
 }
+.second_section{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
 .second_section_content{
     display: flex;
     flex-direction: row;
@@ -208,4 +254,80 @@
     background-image: url(./src/img/mini-logo.png);
     width: 23px;
     height: 27px;
+}
+.right_part_minisection{
+    display: flex;
+    flex-direction: row;
+}
+.right_part_minisection_left{
+    background-color: #F4F4F4;
+}
+.years_old{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #FFB342;
+}
+.years_old_text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #1C2752
+}
+.third_section{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #FFB342;
+    height: 900px;
+}
+.text-title-blue{
+    color: #1C2752;
+}
+.main-services{
+    margin: 0 auto;
+    width: 840px;   
+}
+.third_section_button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button_third_section{
+    border: solid 1px black;
+    width:219px;
+    height:68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button_third_section-picture{
+    width: 36px;
+    height: 36px;
+}
+.commercial{
+    background-image: url(./src/img/commercial.png);
+}
+.residentaial{
+    background-image: url(./src/img/residental.png);
+}
+.indusrtial{
+    background-image: url(./src/img/industrial.png);
+}
+.button_third_section_link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    color: #222222;
 }
